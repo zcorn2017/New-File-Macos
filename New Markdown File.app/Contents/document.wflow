@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>tell application "Finder"	try		display dialog "Please input the .md file name to be created(tithout the extension)" default answer "New_Notes"		set fileName to the text returned of result		if length of fileName = 0 then			return 0		end if		set fileExt to ".md"		set thisFolder to the target of the front window as alias		set newFile to fileName &amp; fileExt		make new folder at thisFolder with properties {name:fileName}		set mdFolder to alias ((thisFolder as text) &amp; fileName)		make new file at mdFolder with properties {name:newFile}			on error errMsg		display dialog (errMsg)	end tryend tell</string>
+					<string>tell application "Finder"	try		display dialog "Please input the .md file name to be created(without the extension)" default answer "New_Notes"		set fileName to the text returned of result		if length of fileName = 0 then			return 0		end if		set fileExt to ".md"		set thisFolder to the target of the front window as alias		set newFile to fileName &amp; fileExt		make new folder at thisFolder with properties {name:fileName}		set mdFolder to alias ((thisFolder as text) &amp; fileName)		make new file at mdFolder with properties {name:newFile}			on error errMsg		display dialog (errMsg)	end tryend tell</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
