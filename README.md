@@ -21,7 +21,7 @@ This is to create a new markdown file.
 6. Click the "Done" button.
 7. Finally click the button to see the magic.
 
-# What it looks like after settings
+# What it looks like after setup
 
 ![What it looks like in the end](assets/2021-02-26-23-34-59.png)
 
