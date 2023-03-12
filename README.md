@@ -13,7 +13,7 @@ This is to create a new markdown file.
 > If you encounter the `“XXX.app” can’t be opened because Apple cannot check it for malicious software.` error, pls refer to [Apple Support: Apple can’t check app for malicious software.](https://support.apple.com/en-gb/guide/mac-help/mchleab3a043/mac) for a solution.
 <img width="372" alt="Screenshot 2022-08-28 at 12 08 25" src="https://user-images.githubusercontent.com/50042224/187056933-bd2ab8eb-3c91-4605-9b4a-dd334714ffb3.png">
 
-1. Download the .zip file you need.
+1. Download the .zip file from the release.
 2. Decompress the .zip file.
 3. Drag it to the "Applications" folder.
 4. Go to "Finder" $\rightarrow$ "View" $\rightarrow$ "Customise Toolbar..."
